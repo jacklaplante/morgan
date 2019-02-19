@@ -1,0 +1,3102 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/jacklaplante/nonToast/morgan/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e70c48bed2fccad6b621b54dfcba5228",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "aa7fc51601c7d6c5cbc5af12d16ed033",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "eea6ff540d1d65ca81c3c9216ce80897",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "af1cd2449e4e1ca56a8438be28424514",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8bd25cdb9a060dfb5df910f385079ef3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e2451d59579ff6369a550acd4274f6f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "58a5ffcedc84bdb74c09fd7b20565f26",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-emotion",
+      "id": "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177",
+      "name": "gatsby-plugin-emotion",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "emotion",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "emotion",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "emotion-server",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7be46865c8326d30e7233ffdf9cd1f99",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "54e3ea36-236a-5532-9628-10debfd8525c": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-netlify",
+      "id": "54e3ea36-236a-5532-9628-10debfd8525c",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c3264f747c4e7dc6b853e4fcfd3c789b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5ea18b54e2aaf59a78404a92b133727f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "04fa724b-f6b2-5cfe-91c1-7ae10544fa80": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-source-filesystem",
+      "id": "04fa724b-f6b2-5cfe-91c1-7ae10544fa80",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "content",
+        "path": "/Users/jacklaplante/nonToast/morgan/content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "170434a21b794fc44c4e749c2bbe3553",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad721324-96c1-5715-ac8d-3f362695eee0": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-typography",
+      "id": "ad721324-96c1-5715-ac8d-3f362695eee0",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.7",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c839394f2befee5ad9829ed750e36999",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "256c5a2d-31c3-5956-b776-42b28efb62c0": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-transformer-yaml",
+      "id": "256c5a2d-31c3-5956-b776-42b28efb62c0",
+      "name": "gatsby-transformer-yaml",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-transformer-yaml",
+      "packageJson": {
+        "name": "gatsby-transformer-yaml",
+        "description": "Gatsby transformer plugin for yaml",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "yaml"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "js-yaml",
+            "version": "3.11.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "34d0aa59c1aa567704b50967565fe6ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "690e6ed3-3ebe-51bb-ba94-4720f1e2dc33": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/plugins/gatsby-source-remote-images",
+      "name": "gatsby-source-remote-images",
+      "id": "690e6ed3-3ebe-51bb-ba94-4720f1e2dc33",
+      "version": "aabd94afbc9daa6170be20e9a71dcccb",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/plugins/gatsby-source-remote-images",
+      "packageJson": {
+        "name": "gatsby-source-remote-images",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c18d9c8e5317d0645e62a12974025110",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e981c1e6a9864c0d45cfa6ad7055b961",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan",
+      "packageJson": {
+        "name": "using-gatsby-image",
+        "description": "Gatsby example site using using-gatsby-image",
+        "main": "n/a",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.36"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.7"
+          },
+          {
+            "name": "gatsby-transformer-yaml",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "numeral",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.0"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "react-icons",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typeface-oswald",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-pt-sans",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.6"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "352c7bc7960b1878e1f01677c371bc83",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "416920fb-e641-5c4f-baef-d0db48fee20e": {
+      "resolve": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-page-creator",
+      "id": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jacklaplante/nonToast/morgan/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jacklaplante/nonToast/morgan/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "83e7d7e6fc3eea1192ee0d2feeb04d02",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-19T01:46:08.166Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e41b8186db9a8e35654496a65e95fd27",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e9839fb7-08d2-5a22-9b5d-8f347474d1d6": {
+      "id": "e9839fb7-08d2-5a22-9b5d-8f347474d1d6",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6f1503a797b7802c79f2b4d83464c87c",
+        "type": "Directory",
+        "description": "Directory \"content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-02-18T20:48:03.172Z",
+      "accessTime": "2019-02-19T01:46:15.455Z",
+      "changeTime": "2019-02-19T01:38:16.629Z",
+      "birthTime": "2019-02-18T20:48:03.170Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29338802,
+      "blocks": 0,
+      "atimeMs": 1550540775454.744,
+      "mtimeMs": 1550522883172.3604,
+      "ctimeMs": 1550540296629.253,
+      "birthtimeMs": 1550522883169.9568,
+      "atime": "2019-02-19T01:46:15.455Z",
+      "mtime": "2019-02-18T20:48:03.172Z",
+      "ctime": "2019-02-19T01:38:16.629Z",
+      "birthtime": "2019-02-18T20:48:03.170Z"
+    },
+    "ca4bfa3b-133a-50b2-9e70-64ce29193fdf": {
+      "id": "ca4bfa3b-133a-50b2-9e70-64ce29193fdf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e551a7547402ca38a71931460d09ddb8",
+        "type": "Directory",
+        "description": "Directory \"content/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/content/images",
+      "relativePath": "images",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-02-19T01:44:08.496Z",
+      "accessTime": "2019-02-19T01:46:15.457Z",
+      "changeTime": "2019-02-19T01:44:08.496Z",
+      "birthTime": "2019-02-18T20:48:03.170Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/content",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29338823,
+      "blocks": 0,
+      "atimeMs": 1550540775456.823,
+      "mtimeMs": 1550540648496.12,
+      "ctimeMs": 1550540648496.12,
+      "birthtimeMs": 1550522883170.0217,
+      "atime": "2019-02-19T01:46:15.457Z",
+      "mtime": "2019-02-19T01:44:08.496Z",
+      "ctime": "2019-02-19T01:44:08.496Z",
+      "birthtime": "2019-02-18T20:48:03.170Z"
+    },
+    "83db1a98-7008-5080-b20a-b1b7534a1e2d": {
+      "id": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "children": [
+        "e40b4cba-63f8-528e-9454-244856893c6f",
+        "42cd853d-f121-5422-a673-f7dfcf7086e1",
+        "b3228b8c-d5d2-5698-a838-232ec7e3945e",
+        "874a3cbf-5812-59df-8eed-12c3c649910c",
+        "da38bc65-f773-5113-b360-fcf6fdd8f7a6",
+        "e01e267c-2e08-5720-8d9f-3e019ea9ef91",
+        "6852073b-886c-5b9e-a579-1a040823e232",
+        "7361d008-d943-5b4c-a424-788554d601eb",
+        "3b5e83dc-5a49-541b-966a-8f5c23f583fc",
+        "d44e748c-7242-546d-a25c-f2a277fb496e",
+        "93020aca-5bfd-5b8c-89f2-ce47c77ab160",
+        "aea44253-5671-5eca-bd40-7c67fb4d195c",
+        "0ac83ead-74b4-5c9c-be59-222596545ac8",
+        "2ecb9d22-1ed5-5144-bd65-bb4c7f8d62fc",
+        "6414a262-552f-5fef-b86c-a364b423b6b5",
+        "fc0986fa-1efa-561c-b473-3695e902feed",
+        "1d865af5-145b-5318-bd1c-7a85560d7feb",
+        "6d755551-ab54-524a-804d-98e480cc948f",
+        "f5be4102-4e8a-51a9-8a1e-1b102444ce77",
+        "0fe6336f-fee5-5e46-8cc4-14ad29dc9a48",
+        "6d146f5e-5b6f-5330-a1b0-419073de980c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a9fb9223eabcb00307a3160da5c91f3a",
+        "type": "File",
+        "mediaType": "text/yaml",
+        "description": "File \"content/unsplash-images.yaml\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/content/unsplash-images.yaml",
+      "relativePath": "unsplash-images.yaml",
+      "extension": "yaml",
+      "size": 2762,
+      "prettySize": "2.76 kB",
+      "modifiedTime": "2019-02-18T20:48:03.172Z",
+      "accessTime": "2019-02-19T01:44:29.639Z",
+      "changeTime": "2019-02-19T01:38:16.629Z",
+      "birthTime": "2019-02-18T20:48:03.172Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/content",
+      "base": "unsplash-images.yaml",
+      "ext": ".yaml",
+      "name": "unsplash-images",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29338827,
+      "blocks": 8,
+      "atimeMs": 1550540669638.6028,
+      "mtimeMs": 1550522883172.4836,
+      "ctimeMs": 1550540296629.031,
+      "birthtimeMs": 1550522883172.3545,
+      "atime": "2019-02-19T01:44:29.639Z",
+      "mtime": "2019-02-18T20:48:03.172Z",
+      "ctime": "2019-02-19T01:38:16.629Z",
+      "birthtime": "2019-02-18T20:48:03.172Z"
+    },
+    "e40b4cba-63f8-528e-9454-244856893c6f": {
+      "url": "https://images.unsplash.com/photo-1534432586043-ead5b99229fb",
+      "title": "Pug with hoodie",
+      "credit": "Charles Deluvio",
+      "id": "e40b4cba-63f8-528e-9454-244856893c6f",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "e659a7d77dd314928d8dae23528f6a7f",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "eed439b81089fc6a6265f773b41315e2"
+    },
+    "42cd853d-f121-5422-a673-f7dfcf7086e1": {
+      "url": "https://images.unsplash.com/photo-1530041539828-114de669390e",
+      "title": "Pug with yellow raincoat",
+      "credit": "Charles Deluvio",
+      "id": "42cd853d-f121-5422-a673-f7dfcf7086e1",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "530bb480aaccbf0b24dda88a33ccab06",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "cf188eb7588aef959638cbcb5c67f6cf"
+    },
+    "b3228b8c-d5d2-5698-a838-232ec7e3945e": {
+      "url": "https://images.unsplash.com/photo-1495121553079-4c61bcce1894",
+      "title": "Vintage camera",
+      "credit": "Alexander Andrews",
+      "id": "b3228b8c-d5d2-5698-a838-232ec7e3945e",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "042aac746728f2d0cfb2845c3d51c208",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "67359678230fb69f6e563cd97ecfcc85"
+    },
+    "874a3cbf-5812-59df-8eed-12c3c649910c": {
+      "url": "https://images.unsplash.com/photo-1517519014922-8fc06b814a0e",
+      "title": "Pug with red hat",
+      "credit": "Charles Deluvio",
+      "id": "874a3cbf-5812-59df-8eed-12c3c649910c",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "37234329ab6b0c4c021a72b590b6fbe6",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "41394c435a80391d8044e563d0c2e317"
+    },
+    "da38bc65-f773-5113-b360-fcf6fdd8f7a6": {
+      "url": "https://images.unsplash.com/photo-1530041587872-d823b3d4bed7",
+      "title": "Pug without hoodie",
+      "credit": "Charles Deluvio",
+      "id": "da38bc65-f773-5113-b360-fcf6fdd8f7a6",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "93e092e0f4132b2b852c2c405d1a49ab",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "316983026851ce62759947b60d65033e"
+    },
+    "e01e267c-2e08-5720-8d9f-3e019ea9ef91": {
+      "url": "https://images.unsplash.com/photo-1528475478853-5b89bed65c4c",
+      "title": "Cactus",
+      "credit": "Charles Deluvio",
+      "gallery": true,
+      "id": "e01e267c-2e08-5720-8d9f-3e019ea9ef91",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "ab9af14d20c06a8c2a706a692708d258",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "da60e025d4fe7b3e3e5f508f4e07feb3"
+    },
+    "6852073b-886c-5b9e-a579-1a040823e232": {
+      "url": "https://images.unsplash.com/photo-1528476625962-40d0763c921f",
+      "title": "Cacti",
+      "credit": "Charles Deluvio",
+      "gallery": true,
+      "id": "6852073b-886c-5b9e-a579-1a040823e232",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "fe78ba069e56cfbb8318fc3110fc0a9b",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "15af8fc327060dc0c76f074474567665"
+    },
+    "7361d008-d943-5b4c-a424-788554d601eb": {
+      "url": "https://images.unsplash.com/photo-1525498128493-380d1990a112",
+      "title": "Leaves",
+      "credit": "Chris Lee",
+      "gallery": true,
+      "id": "7361d008-d943-5b4c-a424-788554d601eb",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "629a747fb6e88f3f93b7c6b5d5303d1c",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "5056ce91b761ca03578573c29cfafadf"
+    },
+    "3b5e83dc-5a49-541b-966a-8f5c23f583fc": {
+      "url": "https://images.unsplash.com/photo-1539656262152-6cb9103f1a33",
+      "title": "City from above",
+      "credit": "chuttersnap",
+      "gallery": true,
+      "id": "3b5e83dc-5a49-541b-966a-8f5c23f583fc",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "058725a3968a82f4a22b7b75b319ea8c",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "ef6a89faeeb14bbe8eb8bf0826ab8d93"
+    },
+    "d44e748c-7242-546d-a25c-f2a277fb496e": {
+      "url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
+      "title": "Plant with leaves",
+      "credit": "Igor Son",
+      "gallery": true,
+      "id": "d44e748c-7242-546d-a25c-f2a277fb496e",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "3bc171079b33e3020002d08d2b4f46ad",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "062d2226c72a700ef42d453a2fa88c84"
+    },
+    "93020aca-5bfd-5b8c-89f2-ce47c77ab160": {
+      "url": "https://images.unsplash.com/photo-1469201039728-6c8998f9872a",
+      "title": "Alien in the forest",
+      "credit": "Martin Reisch",
+      "gallery": true,
+      "id": "93020aca-5bfd-5b8c-89f2-ce47c77ab160",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "f2c12f946893ff601c4ff47d2efe36fe",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "8ca43b09800fa7a331dd76d8d6458d0c"
+    },
+    "aea44253-5671-5eca-bd40-7c67fb4d195c": {
+      "url": "https://images.unsplash.com/photo-1483728788451-2708e0270131",
+      "title": "Person in center from above",
+      "credit": "Martin Reisch",
+      "gallery": true,
+      "id": "aea44253-5671-5eca-bd40-7c67fb4d195c",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "2b06f87c77943af6c687faf62584bd55",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "6484a65b545f8625336c123354ec4179"
+    },
+    "0ac83ead-74b4-5c9c-be59-222596545ac8": {
+      "url": "https://images.unsplash.com/photo-1485827031228-b1736cb1fd06",
+      "title": "Person on football field from above",
+      "credit": "Martin Reisch",
+      "gallery": true,
+      "id": "0ac83ead-74b4-5c9c-be59-222596545ac8",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "10ba173f09f2743e9f843392f2cd7f11",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "07c716a94c5cbd7299db672e1fe0e945"
+    },
+    "2ecb9d22-1ed5-5144-bd65-bb4c7f8d62fc": {
+      "url": "https://images.unsplash.com/photo-1496241028573-69327bf8f9d5",
+      "title": "Person on roof from above",
+      "credit": "Martin Reisch",
+      "gallery": true,
+      "id": "2ecb9d22-1ed5-5144-bd65-bb4c7f8d62fc",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "bb3d22a7dcd09dbbb4d95cd67c5e3a45",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "a674fea5ad963615ec19f2f9e7494755"
+    },
+    "6414a262-552f-5fef-b86c-a364b423b6b5": {
+      "url": "https://images.unsplash.com/photo-1479859546309-cd77fa21c8f6",
+      "title": "Tennis court",
+      "credit": "Michele Feola",
+      "gallery": true,
+      "id": "6414a262-552f-5fef-b86c-a364b423b6b5",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "2fb87371964c74a61ef5bba9a3b3c272",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "ed3ef014504181a1789ca94d0e95a584"
+    },
+    "fc0986fa-1efa-561c-b473-3695e902feed": {
+      "url": "https://images.unsplash.com/photo-1504981775868-badb3c4ec2bd",
+      "title": "Beach",
+      "credit": "Ryan Christodoulou",
+      "gallery": true,
+      "id": "fc0986fa-1efa-561c-b473-3695e902feed",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "867eed0bb7dd99f93d60f54c0c2242e1",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "2f68d2731df59d26f55f0f249f3d84a6"
+    },
+    "1d865af5-145b-5318-bd1c-7a85560d7feb": {
+      "url": "https://images.unsplash.com/photo-1505903658795-8d3cc48039e4",
+      "title": "Top of house",
+      "credit": "Simone Hutsch",
+      "gallery": true,
+      "id": "1d865af5-145b-5318-bd1c-7a85560d7feb",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "be4be844a406c9f3b1f1175fed2523b4",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "02d9f71cc8aa6e6d2afc8eb175ab581d"
+    },
+    "6d755551-ab54-524a-804d-98e480cc948f": {
+      "url": "https://images.unsplash.com/photo-1505904909252-8ce17de9f287",
+      "title": "Gala",
+      "credit": "Simone Hutsch",
+      "gallery": true,
+      "id": "6d755551-ab54-524a-804d-98e480cc948f",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "2fdfb277cc04fd9b317bf5add43c7b0c",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "ffbc2c96d4162925bea1cc7f9cb69cae"
+    },
+    "f5be4102-4e8a-51a9-8a1e-1b102444ce77": {
+      "url": "https://images.unsplash.com/photo-1504492729478-4ea346b648ae",
+      "title": "Pool from above",
+      "credit": "Spencer Watson",
+      "gallery": true,
+      "id": "f5be4102-4e8a-51a9-8a1e-1b102444ce77",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "264722aab7446e27c0ed438cdbbc6af3",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "a201749fffa558ad4128b7e08297ab72"
+    },
+    "0fe6336f-fee5-5e46-8cc4-14ad29dc9a48": {
+      "url": "https://images.unsplash.com/photo-1498248193836-88f8c8d70a3f",
+      "title": "Beach and tents from above",
+      "credit": "Syd Sujuaan",
+      "gallery": true,
+      "id": "0fe6336f-fee5-5e46-8cc4-14ad29dc9a48",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "6893904e5022e91e0283699185af5e51",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "017ef8dc9595848f7881b16a7648663d"
+    },
+    "6d146f5e-5b6f-5330-a1b0-419073de980c": {
+      "url": "https://images.unsplash.com/photo-1516962126636-27ad087061cc",
+      "title": "Polaroid Pronto 600",
+      "credit": "Yoann Siloine",
+      "gallery": true,
+      "id": "6d146f5e-5b6f-5330-a1b0-419073de980c",
+      "children": [],
+      "parent": "83db1a98-7008-5080-b20a-b1b7534a1e2d",
+      "internal": {
+        "contentDigest": "1c6ab044e0ecfe6219634a6918f411ad",
+        "type": "UnsplashImagesYaml",
+        "owner": "gatsby-transformer-yaml"
+      },
+      "localFile___NODE": "d015f8d02281b910f0f33c66508d2cd7"
+    },
+    "3abd025b-812f-5ef0-a30e-c30b0c56239a": {
+      "id": "3abd025b-812f-5ef0-a30e-c30b0c56239a",
+      "children": [
+        "cdac8c88-bdad-5171-88b8-5fff95eb0ff4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3d927037de2ee6e505bb8ff910a2d74f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/images/ellie.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/content/images/ellie.jpg",
+      "relativePath": "images/ellie.jpg",
+      "extension": "jpg",
+      "size": 612132,
+      "prettySize": "612 kB",
+      "modifiedTime": "2019-02-18T23:39:31.496Z",
+      "accessTime": "2019-02-19T01:46:15.457Z",
+      "changeTime": "2019-02-19T01:38:16.628Z",
+      "birthTime": "2019-02-18T23:39:31.473Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/content/images",
+      "base": "ellie.jpg",
+      "ext": ".jpg",
+      "name": "ellie",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29338826,
+      "blocks": 1200,
+      "atimeMs": 1550540775456.923,
+      "mtimeMs": 1550533171496.1057,
+      "ctimeMs": 1550540296628.4675,
+      "birthtimeMs": 1550533171472.6895,
+      "atime": "2019-02-19T01:46:15.457Z",
+      "mtime": "2019-02-18T23:39:31.496Z",
+      "ctime": "2019-02-19T01:38:16.628Z",
+      "birthtime": "2019-02-18T23:39:31.473Z"
+    },
+    "cdac8c88-bdad-5171-88b8-5fff95eb0ff4": {
+      "id": "cdac8c88-bdad-5171-88b8-5fff95eb0ff4",
+      "children": [],
+      "parent": "3abd025b-812f-5ef0-a30e-c30b0c56239a",
+      "internal": {
+        "contentDigest": "3d927037de2ee6e505bb8ff910a2d74f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "062d2226c72a700ef42d453a2fa88c84": {
+      "id": "062d2226c72a700ef42d453a2fa88c84",
+      "children": [
+        "c6c49d61-89c1-57d5-8a64-5ef3eda5b3c2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a2b86add01057a1cd2bcdebc78241cb",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1501004318641-b39e6451bec6\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/948a420e94c72d227cdc3e1554647a21/photo-1501004318641-b39e6451bec6.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/948a420e94c72d227cdc3e1554647a21/photo-1501004318641-b39e6451bec6.jpg",
+      "extension": "jpg",
+      "size": 1094376,
+      "prettySize": "1.09 MB",
+      "modifiedTime": "2019-02-19T01:46:17.231Z",
+      "accessTime": "2019-02-19T01:46:17.240Z",
+      "changeTime": "2019-02-19T01:46:17.240Z",
+      "birthTime": "2019-02-19T01:46:15.509Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/948a420e94c72d227cdc3e1554647a21",
+      "base": "photo-1501004318641-b39e6451bec6.jpg",
+      "ext": ".jpg",
+      "name": "photo-1501004318641-b39e6451bec6",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/948a420e94c72d227cdc3e1554647a21",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375036,
+      "blocks": 4128,
+      "atimeMs": 1550540777240.2375,
+      "mtimeMs": 1550540777230.8489,
+      "ctimeMs": 1550540777239.939,
+      "birthtimeMs": 1550540775508.7654,
+      "atime": "2019-02-19T01:46:17.240Z",
+      "mtime": "2019-02-19T01:46:17.231Z",
+      "ctime": "2019-02-19T01:46:17.240Z",
+      "birthtime": "2019-02-19T01:46:15.509Z"
+    },
+    "c6c49d61-89c1-57d5-8a64-5ef3eda5b3c2": {
+      "id": "c6c49d61-89c1-57d5-8a64-5ef3eda5b3c2",
+      "children": [],
+      "parent": "062d2226c72a700ef42d453a2fa88c84",
+      "internal": {
+        "contentDigest": "4a2b86add01057a1cd2bcdebc78241cb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2f68d2731df59d26f55f0f249f3d84a6": {
+      "id": "2f68d2731df59d26f55f0f249f3d84a6",
+      "children": [
+        "5df071c7-f9ef-5ece-bca4-70ab7693a156"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3f71f7d8feb268f5497ce4e5eef4359d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1504981775868-badb3c4ec2bd\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/7da93c67b540698e73dd726b35efab78/photo-1504981775868-badb3c4ec2bd.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/7da93c67b540698e73dd726b35efab78/photo-1504981775868-badb3c4ec2bd.jpg",
+      "extension": "jpg",
+      "size": 659861,
+      "prettySize": "660 kB",
+      "modifiedTime": "2019-02-19T01:46:17.520Z",
+      "accessTime": "2019-02-19T01:46:17.530Z",
+      "changeTime": "2019-02-19T01:46:17.530Z",
+      "birthTime": "2019-02-19T01:46:15.512Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/7da93c67b540698e73dd726b35efab78",
+      "base": "photo-1504981775868-badb3c4ec2bd.jpg",
+      "ext": ".jpg",
+      "name": "photo-1504981775868-badb3c4ec2bd",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/7da93c67b540698e73dd726b35efab78",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375041,
+      "blocks": 1376,
+      "atimeMs": 1550540777530.1006,
+      "mtimeMs": 1550540777520.0996,
+      "ctimeMs": 1550540777529.7654,
+      "birthtimeMs": 1550540775511.5308,
+      "atime": "2019-02-19T01:46:17.530Z",
+      "mtime": "2019-02-19T01:46:17.520Z",
+      "ctime": "2019-02-19T01:46:17.530Z",
+      "birthtime": "2019-02-19T01:46:15.512Z"
+    },
+    "5df071c7-f9ef-5ece-bca4-70ab7693a156": {
+      "id": "5df071c7-f9ef-5ece-bca4-70ab7693a156",
+      "children": [],
+      "parent": "2f68d2731df59d26f55f0f249f3d84a6",
+      "internal": {
+        "contentDigest": "3f71f7d8feb268f5497ce4e5eef4359d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a201749fffa558ad4128b7e08297ab72": {
+      "id": "a201749fffa558ad4128b7e08297ab72",
+      "children": [
+        "002afbe4-e1e5-5774-8f62-3bcca8d6950b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c51abae919ec92fb4b3177de8a048ad7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1504492729478-4ea346b648ae\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/a9d251bc2830db68d786e58b250b14f8/photo-1504492729478-4ea346b648ae.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/a9d251bc2830db68d786e58b250b14f8/photo-1504492729478-4ea346b648ae.jpg",
+      "extension": "jpg",
+      "size": 821661,
+      "prettySize": "822 kB",
+      "modifiedTime": "2019-02-19T01:46:17.723Z",
+      "accessTime": "2019-02-19T01:46:17.725Z",
+      "changeTime": "2019-02-19T01:46:17.725Z",
+      "birthTime": "2019-02-19T01:46:15.578Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/a9d251bc2830db68d786e58b250b14f8",
+      "base": "photo-1504492729478-4ea346b648ae.jpg",
+      "ext": ".jpg",
+      "name": "photo-1504492729478-4ea346b648ae",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/a9d251bc2830db68d786e58b250b14f8",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375047,
+      "blocks": 1728,
+      "atimeMs": 1550540777725.049,
+      "mtimeMs": 1550540777722.734,
+      "ctimeMs": 1550540777724.781,
+      "birthtimeMs": 1550540775577.6038,
+      "atime": "2019-02-19T01:46:17.725Z",
+      "mtime": "2019-02-19T01:46:17.723Z",
+      "ctime": "2019-02-19T01:46:17.725Z",
+      "birthtime": "2019-02-19T01:46:15.578Z"
+    },
+    "002afbe4-e1e5-5774-8f62-3bcca8d6950b": {
+      "id": "002afbe4-e1e5-5774-8f62-3bcca8d6950b",
+      "children": [],
+      "parent": "a201749fffa558ad4128b7e08297ab72",
+      "internal": {
+        "contentDigest": "c51abae919ec92fb4b3177de8a048ad7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ef6a89faeeb14bbe8eb8bf0826ab8d93": {
+      "id": "ef6a89faeeb14bbe8eb8bf0826ab8d93",
+      "children": [
+        "aae735d7-98d9-5c48-9606-0f990e0bf646"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "222da5e53bb93fa3b3cc5127c3e008a2",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1539656262152-6cb9103f1a33\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/c9b17879da7c89cc151bb20c240882c2/photo-1539656262152-6cb9103f1a33.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/c9b17879da7c89cc151bb20c240882c2/photo-1539656262152-6cb9103f1a33.jpg",
+      "extension": "jpg",
+      "size": 1545834,
+      "prettySize": "1.55 MB",
+      "modifiedTime": "2019-02-19T01:46:18.343Z",
+      "accessTime": "2019-02-19T01:46:18.353Z",
+      "changeTime": "2019-02-19T01:46:18.353Z",
+      "birthTime": "2019-02-19T01:46:15.509Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/c9b17879da7c89cc151bb20c240882c2",
+      "base": "photo-1539656262152-6cb9103f1a33.jpg",
+      "ext": ".jpg",
+      "name": "photo-1539656262152-6cb9103f1a33",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/c9b17879da7c89cc151bb20c240882c2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375035,
+      "blocks": 4144,
+      "atimeMs": 1550540778353.1829,
+      "mtimeMs": 1550540778343.0513,
+      "ctimeMs": 1550540778352.5718,
+      "birthtimeMs": 1550540775508.5544,
+      "atime": "2019-02-19T01:46:18.353Z",
+      "mtime": "2019-02-19T01:46:18.343Z",
+      "ctime": "2019-02-19T01:46:18.353Z",
+      "birthtime": "2019-02-19T01:46:15.509Z"
+    },
+    "aae735d7-98d9-5c48-9606-0f990e0bf646": {
+      "id": "aae735d7-98d9-5c48-9606-0f990e0bf646",
+      "children": [],
+      "parent": "ef6a89faeeb14bbe8eb8bf0826ab8d93",
+      "internal": {
+        "contentDigest": "222da5e53bb93fa3b3cc5127c3e008a2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "017ef8dc9595848f7881b16a7648663d": {
+      "id": "017ef8dc9595848f7881b16a7648663d",
+      "children": [
+        "b32fe162-d043-544d-8fb9-1b64466e11c7"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d89368fa13786e2ab7e6757d8fb5b214",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1498248193836-88f8c8d70a3f\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/db1c517c2b0703d0e8361e12eb9f639a/photo-1498248193836-88f8c8d70a3f.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/db1c517c2b0703d0e8361e12eb9f639a/photo-1498248193836-88f8c8d70a3f.jpg",
+      "extension": "jpg",
+      "size": 2827845,
+      "prettySize": "2.83 MB",
+      "modifiedTime": "2019-02-19T01:46:18.760Z",
+      "accessTime": "2019-02-19T01:46:18.771Z",
+      "changeTime": "2019-02-19T01:46:18.770Z",
+      "birthTime": "2019-02-19T01:46:15.577Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/db1c517c2b0703d0e8361e12eb9f639a",
+      "base": "photo-1498248193836-88f8c8d70a3f.jpg",
+      "ext": ".jpg",
+      "name": "photo-1498248193836-88f8c8d70a3f",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/db1c517c2b0703d0e8361e12eb9f639a",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375045,
+      "blocks": 6176,
+      "atimeMs": 1550540778770.5286,
+      "mtimeMs": 1550540778760.4836,
+      "ctimeMs": 1550540778770.2458,
+      "birthtimeMs": 1550540775577.322,
+      "atime": "2019-02-19T01:46:18.771Z",
+      "mtime": "2019-02-19T01:46:18.760Z",
+      "ctime": "2019-02-19T01:46:18.770Z",
+      "birthtime": "2019-02-19T01:46:15.577Z"
+    },
+    "b32fe162-d043-544d-8fb9-1b64466e11c7": {
+      "id": "b32fe162-d043-544d-8fb9-1b64466e11c7",
+      "children": [],
+      "parent": "017ef8dc9595848f7881b16a7648663d",
+      "internal": {
+        "contentDigest": "d89368fa13786e2ab7e6757d8fb5b214",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5056ce91b761ca03578573c29cfafadf": {
+      "id": "5056ce91b761ca03578573c29cfafadf",
+      "children": [
+        "e59a5abd-d6ed-5364-bea4-efa62b19ba4a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "10cd602ec9be8d08f692572ce9621294",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1525498128493-380d1990a112\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/252cfd1c34eed28e0dc535be71809f34/photo-1525498128493-380d1990a112.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/252cfd1c34eed28e0dc535be71809f34/photo-1525498128493-380d1990a112.jpg",
+      "extension": "jpg",
+      "size": 2390932,
+      "prettySize": "2.39 MB",
+      "modifiedTime": "2019-02-19T01:46:18.841Z",
+      "accessTime": "2019-02-19T01:46:18.845Z",
+      "changeTime": "2019-02-19T01:46:18.845Z",
+      "birthTime": "2019-02-19T01:46:15.508Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/252cfd1c34eed28e0dc535be71809f34",
+      "base": "photo-1525498128493-380d1990a112.jpg",
+      "ext": ".jpg",
+      "name": "photo-1525498128493-380d1990a112",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/252cfd1c34eed28e0dc535be71809f34",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375034,
+      "blocks": 6224,
+      "atimeMs": 1550540778844.9622,
+      "mtimeMs": 1550540778841.1475,
+      "ctimeMs": 1550540778844.7542,
+      "birthtimeMs": 1550540775508.3313,
+      "atime": "2019-02-19T01:46:18.845Z",
+      "mtime": "2019-02-19T01:46:18.841Z",
+      "ctime": "2019-02-19T01:46:18.845Z",
+      "birthtime": "2019-02-19T01:46:15.508Z"
+    },
+    "e59a5abd-d6ed-5364-bea4-efa62b19ba4a": {
+      "id": "e59a5abd-d6ed-5364-bea4-efa62b19ba4a",
+      "children": [],
+      "parent": "5056ce91b761ca03578573c29cfafadf",
+      "internal": {
+        "contentDigest": "10cd602ec9be8d08f692572ce9621294",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "da60e025d4fe7b3e3e5f508f4e07feb3": {
+      "id": "da60e025d4fe7b3e3e5f508f4e07feb3",
+      "children": [
+        "21249cc9-a454-52dd-91f4-5ebe0e9c29cf"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a68b8f24de2c407e1b14e33bad9223fc",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1528475478853-5b89bed65c4c\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/31697b59e406bd1002ba54305e4cab9d/photo-1528475478853-5b89bed65c4c.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/31697b59e406bd1002ba54305e4cab9d/photo-1528475478853-5b89bed65c4c.jpg",
+      "extension": "jpg",
+      "size": 1931069,
+      "prettySize": "1.93 MB",
+      "modifiedTime": "2019-02-19T01:46:19.205Z",
+      "accessTime": "2019-02-19T01:46:19.209Z",
+      "changeTime": "2019-02-19T01:46:19.209Z",
+      "birthTime": "2019-02-19T01:46:15.508Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/31697b59e406bd1002ba54305e4cab9d",
+      "base": "photo-1528475478853-5b89bed65c4c.jpg",
+      "ext": ".jpg",
+      "name": "photo-1528475478853-5b89bed65c4c",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/31697b59e406bd1002ba54305e4cab9d",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375032,
+      "blocks": 4176,
+      "atimeMs": 1550540779208.7686,
+      "mtimeMs": 1550540779204.7974,
+      "ctimeMs": 1550540779208.592,
+      "birthtimeMs": 1550540775507.8547,
+      "atime": "2019-02-19T01:46:19.209Z",
+      "mtime": "2019-02-19T01:46:19.205Z",
+      "ctime": "2019-02-19T01:46:19.209Z",
+      "birthtime": "2019-02-19T01:46:15.508Z"
+    },
+    "21249cc9-a454-52dd-91f4-5ebe0e9c29cf": {
+      "id": "21249cc9-a454-52dd-91f4-5ebe0e9c29cf",
+      "children": [],
+      "parent": "da60e025d4fe7b3e3e5f508f4e07feb3",
+      "internal": {
+        "contentDigest": "a68b8f24de2c407e1b14e33bad9223fc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "15af8fc327060dc0c76f074474567665": {
+      "id": "15af8fc327060dc0c76f074474567665",
+      "children": [
+        "fcf65f82-ed7b-5041-b923-510600e18fd9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cfa3e5bded8394819a2d5354546d5bc9",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1528476625962-40d0763c921f\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/83bb9c4a5c3fd9b5c49dd0648d4bf8ce/photo-1528476625962-40d0763c921f.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/83bb9c4a5c3fd9b5c49dd0648d4bf8ce/photo-1528476625962-40d0763c921f.jpg",
+      "extension": "jpg",
+      "size": 2465612,
+      "prettySize": "2.47 MB",
+      "modifiedTime": "2019-02-19T01:46:20.722Z",
+      "accessTime": "2019-02-19T01:46:20.730Z",
+      "changeTime": "2019-02-19T01:46:20.730Z",
+      "birthTime": "2019-02-19T01:46:15.508Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/83bb9c4a5c3fd9b5c49dd0648d4bf8ce",
+      "base": "photo-1528476625962-40d0763c921f.jpg",
+      "ext": ".jpg",
+      "name": "photo-1528476625962-40d0763c921f",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/83bb9c4a5c3fd9b5c49dd0648d4bf8ce",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375033,
+      "blocks": 6176,
+      "atimeMs": 1550540780729.8792,
+      "mtimeMs": 1550540780722.2778,
+      "ctimeMs": 1550540780729.5337,
+      "birthtimeMs": 1550540775508.1177,
+      "atime": "2019-02-19T01:46:20.730Z",
+      "mtime": "2019-02-19T01:46:20.722Z",
+      "ctime": "2019-02-19T01:46:20.730Z",
+      "birthtime": "2019-02-19T01:46:15.508Z"
+    },
+    "fcf65f82-ed7b-5041-b923-510600e18fd9": {
+      "id": "fcf65f82-ed7b-5041-b923-510600e18fd9",
+      "children": [],
+      "parent": "15af8fc327060dc0c76f074474567665",
+      "internal": {
+        "contentDigest": "cfa3e5bded8394819a2d5354546d5bc9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ffbc2c96d4162925bea1cc7f9cb69cae": {
+      "id": "ffbc2c96d4162925bea1cc7f9cb69cae",
+      "children": [
+        "4ec6a74f-f4da-5174-b91b-671d6f672c6c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dc2402b9119031fd8cb7aa83a8663f0a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1505904909252-8ce17de9f287\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/d1ab1dbb3ab71d828ca1bb0c2f95bcfc/photo-1505904909252-8ce17de9f287.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/d1ab1dbb3ab71d828ca1bb0c2f95bcfc/photo-1505904909252-8ce17de9f287.jpg",
+      "extension": "jpg",
+      "size": 5407229,
+      "prettySize": "5.41 MB",
+      "modifiedTime": "2019-02-19T01:46:20.734Z",
+      "accessTime": "2019-02-19T01:46:20.738Z",
+      "changeTime": "2019-02-19T01:46:20.738Z",
+      "birthTime": "2019-02-19T01:46:15.577Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/d1ab1dbb3ab71d828ca1bb0c2f95bcfc",
+      "base": "photo-1505904909252-8ce17de9f287.jpg",
+      "ext": ".jpg",
+      "name": "photo-1505904909252-8ce17de9f287",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/d1ab1dbb3ab71d828ca1bb0c2f95bcfc",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375043,
+      "blocks": 12400,
+      "atimeMs": 1550540780738.1062,
+      "mtimeMs": 1550540780733.6235,
+      "ctimeMs": 1550540780737.7139,
+      "birthtimeMs": 1550540775576.9436,
+      "atime": "2019-02-19T01:46:20.738Z",
+      "mtime": "2019-02-19T01:46:20.734Z",
+      "ctime": "2019-02-19T01:46:20.738Z",
+      "birthtime": "2019-02-19T01:46:15.577Z"
+    },
+    "4ec6a74f-f4da-5174-b91b-671d6f672c6c": {
+      "id": "4ec6a74f-f4da-5174-b91b-671d6f672c6c",
+      "children": [],
+      "parent": "ffbc2c96d4162925bea1cc7f9cb69cae",
+      "internal": {
+        "contentDigest": "dc2402b9119031fd8cb7aa83a8663f0a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cf188eb7588aef959638cbcb5c67f6cf": {
+      "id": "cf188eb7588aef959638cbcb5c67f6cf",
+      "children": [
+        "dde2f1f8-4465-501e-8f2e-06a5ce6ddf11"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3b314577d3b8dd16b97a6b23c068b374",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1530041539828-114de669390e\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/7b214c41dead6dff0f496c55d52769d2/photo-1530041539828-114de669390e.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/7b214c41dead6dff0f496c55d52769d2/photo-1530041539828-114de669390e.jpg",
+      "extension": "jpg",
+      "size": 8960783,
+      "prettySize": "8.96 MB",
+      "modifiedTime": "2019-02-19T01:46:21.524Z",
+      "accessTime": "2019-02-19T01:46:21.528Z",
+      "changeTime": "2019-02-19T01:46:21.527Z",
+      "birthTime": "2019-02-19T01:46:15.507Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/7b214c41dead6dff0f496c55d52769d2",
+      "base": "photo-1530041539828-114de669390e.jpg",
+      "ext": ".jpg",
+      "name": "photo-1530041539828-114de669390e",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/7b214c41dead6dff0f496c55d52769d2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375029,
+      "blocks": 18448,
+      "atimeMs": 1550540781527.863,
+      "mtimeMs": 1550540781524.383,
+      "ctimeMs": 1550540781527.434,
+      "birthtimeMs": 1550540775507.1677,
+      "atime": "2019-02-19T01:46:21.528Z",
+      "mtime": "2019-02-19T01:46:21.524Z",
+      "ctime": "2019-02-19T01:46:21.527Z",
+      "birthtime": "2019-02-19T01:46:15.507Z"
+    },
+    "dde2f1f8-4465-501e-8f2e-06a5ce6ddf11": {
+      "id": "dde2f1f8-4465-501e-8f2e-06a5ce6ddf11",
+      "children": [],
+      "parent": "cf188eb7588aef959638cbcb5c67f6cf",
+      "internal": {
+        "contentDigest": "3b314577d3b8dd16b97a6b23c068b374",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "07c716a94c5cbd7299db672e1fe0e945": {
+      "id": "07c716a94c5cbd7299db672e1fe0e945",
+      "children": [
+        "4fc19857-897b-5d20-8614-a32d1c586abf"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "92b3888e4a13fd55af7fc15738b0104b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1485827031228-b1736cb1fd06\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/e14949ccaa70641a85d6a7248c66fee0/photo-1485827031228-b1736cb1fd06.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/e14949ccaa70641a85d6a7248c66fee0/photo-1485827031228-b1736cb1fd06.jpg",
+      "extension": "jpg",
+      "size": 9220112,
+      "prettySize": "9.22 MB",
+      "modifiedTime": "2019-02-19T01:46:22.118Z",
+      "accessTime": "2019-02-19T01:46:22.122Z",
+      "changeTime": "2019-02-19T01:46:22.122Z",
+      "birthTime": "2019-02-19T01:46:15.511Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/e14949ccaa70641a85d6a7248c66fee0",
+      "base": "photo-1485827031228-b1736cb1fd06.jpg",
+      "ext": ".jpg",
+      "name": "photo-1485827031228-b1736cb1fd06",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/e14949ccaa70641a85d6a7248c66fee0",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375039,
+      "blocks": 18480,
+      "atimeMs": 1550540782122.4639,
+      "mtimeMs": 1550540782118.4536,
+      "ctimeMs": 1550540782122.0762,
+      "birthtimeMs": 1550540775511.0251,
+      "atime": "2019-02-19T01:46:22.122Z",
+      "mtime": "2019-02-19T01:46:22.118Z",
+      "ctime": "2019-02-19T01:46:22.122Z",
+      "birthtime": "2019-02-19T01:46:15.511Z"
+    },
+    "4fc19857-897b-5d20-8614-a32d1c586abf": {
+      "id": "4fc19857-897b-5d20-8614-a32d1c586abf",
+      "children": [],
+      "parent": "07c716a94c5cbd7299db672e1fe0e945",
+      "internal": {
+        "contentDigest": "92b3888e4a13fd55af7fc15738b0104b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "41394c435a80391d8044e563d0c2e317": {
+      "id": "41394c435a80391d8044e563d0c2e317",
+      "children": [
+        "2c83cda3-7fef-505a-87ca-69088b92ea4c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e3da86594f0994ae3f0ea871606fac4a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1517519014922-8fc06b814a0e\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/5a020835303b4bd851ce192f9e7dc688/photo-1517519014922-8fc06b814a0e.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/5a020835303b4bd851ce192f9e7dc688/photo-1517519014922-8fc06b814a0e.jpg",
+      "extension": "jpg",
+      "size": 5678102,
+      "prettySize": "5.68 MB",
+      "modifiedTime": "2019-02-19T01:46:23.474Z",
+      "accessTime": "2019-02-19T01:46:23.480Z",
+      "changeTime": "2019-02-19T01:46:23.480Z",
+      "birthTime": "2019-02-19T01:46:15.508Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/5a020835303b4bd851ce192f9e7dc688",
+      "base": "photo-1517519014922-8fc06b814a0e.jpg",
+      "ext": ".jpg",
+      "name": "photo-1517519014922-8fc06b814a0e",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/5a020835303b4bd851ce192f9e7dc688",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375031,
+      "blocks": 12416,
+      "atimeMs": 1550540783480.2754,
+      "mtimeMs": 1550540783473.8748,
+      "ctimeMs": 1550540783480.0095,
+      "birthtimeMs": 1550540775507.7134,
+      "atime": "2019-02-19T01:46:23.480Z",
+      "mtime": "2019-02-19T01:46:23.474Z",
+      "ctime": "2019-02-19T01:46:23.480Z",
+      "birthtime": "2019-02-19T01:46:15.508Z"
+    },
+    "2c83cda3-7fef-505a-87ca-69088b92ea4c": {
+      "id": "2c83cda3-7fef-505a-87ca-69088b92ea4c",
+      "children": [],
+      "parent": "41394c435a80391d8044e563d0c2e317",
+      "internal": {
+        "contentDigest": "e3da86594f0994ae3f0ea871606fac4a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "02d9f71cc8aa6e6d2afc8eb175ab581d": {
+      "id": "02d9f71cc8aa6e6d2afc8eb175ab581d",
+      "children": [
+        "fa046c5d-abcb-57be-bd8d-6a3df04a78f0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1b4f5dc78cdc55fe1e5baf4e51c535ac",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1505903658795-8d3cc48039e4\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/4fe549851400f195e4d6fe1918b420d1/photo-1505903658795-8d3cc48039e4.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/4fe549851400f195e4d6fe1918b420d1/photo-1505903658795-8d3cc48039e4.jpg",
+      "extension": "jpg",
+      "size": 5806730,
+      "prettySize": "5.81 MB",
+      "modifiedTime": "2019-02-19T01:46:23.608Z",
+      "accessTime": "2019-02-19T01:46:23.672Z",
+      "changeTime": "2019-02-19T01:46:23.672Z",
+      "birthTime": "2019-02-19T01:46:15.577Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/4fe549851400f195e4d6fe1918b420d1",
+      "base": "photo-1505903658795-8d3cc48039e4.jpg",
+      "ext": ".jpg",
+      "name": "photo-1505903658795-8d3cc48039e4",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/4fe549851400f195e4d6fe1918b420d1",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375044,
+      "blocks": 12320,
+      "atimeMs": 1550540783672.115,
+      "mtimeMs": 1550540783608.3762,
+      "ctimeMs": 1550540783671.8384,
+      "birthtimeMs": 1550540775577.0027,
+      "atime": "2019-02-19T01:46:23.672Z",
+      "mtime": "2019-02-19T01:46:23.608Z",
+      "ctime": "2019-02-19T01:46:23.672Z",
+      "birthtime": "2019-02-19T01:46:15.577Z"
+    },
+    "fa046c5d-abcb-57be-bd8d-6a3df04a78f0": {
+      "id": "fa046c5d-abcb-57be-bd8d-6a3df04a78f0",
+      "children": [],
+      "parent": "02d9f71cc8aa6e6d2afc8eb175ab581d",
+      "internal": {
+        "contentDigest": "1b4f5dc78cdc55fe1e5baf4e51c535ac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "eed439b81089fc6a6265f773b41315e2": {
+      "id": "eed439b81089fc6a6265f773b41315e2",
+      "children": [
+        "be960c12-527e-53f1-8d7b-ac27892fd730"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "19aa964cf610b96d6b96dd5ed1e0eb0b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1534432586043-ead5b99229fb\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/2158491ba23135a2aed5da78ade79ee4/photo-1534432586043-ead5b99229fb.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/2158491ba23135a2aed5da78ade79ee4/photo-1534432586043-ead5b99229fb.jpg",
+      "extension": "jpg",
+      "size": 10218109,
+      "prettySize": "10.2 MB",
+      "modifiedTime": "2019-02-19T01:46:24.181Z",
+      "accessTime": "2019-02-19T01:46:24.185Z",
+      "changeTime": "2019-02-19T01:46:24.184Z",
+      "birthTime": "2019-02-19T01:46:15.506Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/2158491ba23135a2aed5da78ade79ee4",
+      "base": "photo-1534432586043-ead5b99229fb.jpg",
+      "ext": ".jpg",
+      "name": "photo-1534432586043-ead5b99229fb",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/2158491ba23135a2aed5da78ade79ee4",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375027,
+      "blocks": 20512,
+      "atimeMs": 1550540784184.7715,
+      "mtimeMs": 1550540784181.1213,
+      "ctimeMs": 1550540784184.4324,
+      "birthtimeMs": 1550540775506.4985,
+      "atime": "2019-02-19T01:46:24.185Z",
+      "mtime": "2019-02-19T01:46:24.181Z",
+      "ctime": "2019-02-19T01:46:24.184Z",
+      "birthtime": "2019-02-19T01:46:15.506Z"
+    },
+    "be960c12-527e-53f1-8d7b-ac27892fd730": {
+      "id": "be960c12-527e-53f1-8d7b-ac27892fd730",
+      "children": [],
+      "parent": "eed439b81089fc6a6265f773b41315e2",
+      "internal": {
+        "contentDigest": "19aa964cf610b96d6b96dd5ed1e0eb0b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ed3ef014504181a1789ca94d0e95a584": {
+      "id": "ed3ef014504181a1789ca94d0e95a584",
+      "children": [
+        "307bb184-f823-57c4-ae23-d982a20761df"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cba7b60efe3561cada8fd9397081c7bd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1479859546309-cd77fa21c8f6\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/b10a76d7f4b2997182165718474ef7c2/photo-1479859546309-cd77fa21c8f6.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/b10a76d7f4b2997182165718474ef7c2/photo-1479859546309-cd77fa21c8f6.jpg",
+      "extension": "jpg",
+      "size": 8049434,
+      "prettySize": "8.05 MB",
+      "modifiedTime": "2019-02-19T01:46:24.605Z",
+      "accessTime": "2019-02-19T01:46:24.611Z",
+      "changeTime": "2019-02-19T01:46:24.611Z",
+      "birthTime": "2019-02-19T01:46:15.511Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/b10a76d7f4b2997182165718474ef7c2",
+      "base": "photo-1479859546309-cd77fa21c8f6.jpg",
+      "ext": ".jpg",
+      "name": "photo-1479859546309-cd77fa21c8f6",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/b10a76d7f4b2997182165718474ef7c2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375040,
+      "blocks": 16512,
+      "atimeMs": 1550540784611.2993,
+      "mtimeMs": 1550540784605.3213,
+      "ctimeMs": 1550540784611.0015,
+      "birthtimeMs": 1550540775511.3267,
+      "atime": "2019-02-19T01:46:24.611Z",
+      "mtime": "2019-02-19T01:46:24.605Z",
+      "ctime": "2019-02-19T01:46:24.611Z",
+      "birthtime": "2019-02-19T01:46:15.511Z"
+    },
+    "307bb184-f823-57c4-ae23-d982a20761df": {
+      "id": "307bb184-f823-57c4-ae23-d982a20761df",
+      "children": [],
+      "parent": "ed3ef014504181a1789ca94d0e95a584",
+      "internal": {
+        "contentDigest": "cba7b60efe3561cada8fd9397081c7bd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "316983026851ce62759947b60d65033e": {
+      "id": "316983026851ce62759947b60d65033e",
+      "children": [
+        "c97be171-238d-5c86-b1b4-3b9a212690bd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6ed0c49dba9e0a06984ce758526dc429",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1530041587872-d823b3d4bed7\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/196545732379e83c2ee0f9ea44b137b7/photo-1530041587872-d823b3d4bed7.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/196545732379e83c2ee0f9ea44b137b7/photo-1530041587872-d823b3d4bed7.jpg",
+      "extension": "jpg",
+      "size": 7828110,
+      "prettySize": "7.83 MB",
+      "modifiedTime": "2019-02-19T01:46:24.870Z",
+      "accessTime": "2019-02-19T01:46:24.874Z",
+      "changeTime": "2019-02-19T01:46:24.874Z",
+      "birthTime": "2019-02-19T01:46:15.507Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/196545732379e83c2ee0f9ea44b137b7",
+      "base": "photo-1530041587872-d823b3d4bed7.jpg",
+      "ext": ".jpg",
+      "name": "photo-1530041587872-d823b3d4bed7",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/196545732379e83c2ee0f9ea44b137b7",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375028,
+      "blocks": 16480,
+      "atimeMs": 1550540784873.8987,
+      "mtimeMs": 1550540784870.2224,
+      "ctimeMs": 1550540784873.628,
+      "birthtimeMs": 1550540775507.1482,
+      "atime": "2019-02-19T01:46:24.874Z",
+      "mtime": "2019-02-19T01:46:24.870Z",
+      "ctime": "2019-02-19T01:46:24.874Z",
+      "birthtime": "2019-02-19T01:46:15.507Z"
+    },
+    "c97be171-238d-5c86-b1b4-3b9a212690bd": {
+      "id": "c97be171-238d-5c86-b1b4-3b9a212690bd",
+      "children": [],
+      "parent": "316983026851ce62759947b60d65033e",
+      "internal": {
+        "contentDigest": "6ed0c49dba9e0a06984ce758526dc429",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a674fea5ad963615ec19f2f9e7494755": {
+      "id": "a674fea5ad963615ec19f2f9e7494755",
+      "children": [
+        "298a7740-76af-585d-b253-2fd80695725c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9e34003d9d89da45d692847fd0a33d7b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1496241028573-69327bf8f9d5\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/3be78d575b3abfedaf7e5e046f24aa55/photo-1496241028573-69327bf8f9d5.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/3be78d575b3abfedaf7e5e046f24aa55/photo-1496241028573-69327bf8f9d5.jpg",
+      "extension": "jpg",
+      "size": 10524354,
+      "prettySize": "10.5 MB",
+      "modifiedTime": "2019-02-19T01:46:25.862Z",
+      "accessTime": "2019-02-19T01:46:25.923Z",
+      "changeTime": "2019-02-19T01:46:25.923Z",
+      "birthTime": "2019-02-19T01:46:15.512Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/3be78d575b3abfedaf7e5e046f24aa55",
+      "base": "photo-1496241028573-69327bf8f9d5.jpg",
+      "ext": ".jpg",
+      "name": "photo-1496241028573-69327bf8f9d5",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/3be78d575b3abfedaf7e5e046f24aa55",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375042,
+      "blocks": 20608,
+      "atimeMs": 1550540785922.9197,
+      "mtimeMs": 1550540785861.899,
+      "ctimeMs": 1550540785922.5527,
+      "birthtimeMs": 1550540775511.7288,
+      "atime": "2019-02-19T01:46:25.923Z",
+      "mtime": "2019-02-19T01:46:25.862Z",
+      "ctime": "2019-02-19T01:46:25.923Z",
+      "birthtime": "2019-02-19T01:46:15.512Z"
+    },
+    "298a7740-76af-585d-b253-2fd80695725c": {
+      "id": "298a7740-76af-585d-b253-2fd80695725c",
+      "children": [],
+      "parent": "a674fea5ad963615ec19f2f9e7494755",
+      "internal": {
+        "contentDigest": "9e34003d9d89da45d692847fd0a33d7b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "67359678230fb69f6e563cd97ecfcc85": {
+      "id": "67359678230fb69f6e563cd97ecfcc85",
+      "children": [
+        "af294388-7019-5e44-9df6-45ae1677db7f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5233313641e1c219b7ac79ff4ac206a5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1495121553079-4c61bcce1894\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/10cd404b7ce4b7a10a11a42447025bb8/photo-1495121553079-4c61bcce1894.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/10cd404b7ce4b7a10a11a42447025bb8/photo-1495121553079-4c61bcce1894.jpg",
+      "extension": "jpg",
+      "size": 10876216,
+      "prettySize": "10.9 MB",
+      "modifiedTime": "2019-02-19T01:46:26.419Z",
+      "accessTime": "2019-02-19T01:46:26.422Z",
+      "changeTime": "2019-02-19T01:46:26.422Z",
+      "birthTime": "2019-02-19T01:46:15.508Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/10cd404b7ce4b7a10a11a42447025bb8",
+      "base": "photo-1495121553079-4c61bcce1894.jpg",
+      "ext": ".jpg",
+      "name": "photo-1495121553079-4c61bcce1894",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/10cd404b7ce4b7a10a11a42447025bb8",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375030,
+      "blocks": 22544,
+      "atimeMs": 1550540786422.3892,
+      "mtimeMs": 1550540786418.792,
+      "ctimeMs": 1550540786422.1296,
+      "birthtimeMs": 1550540775507.6675,
+      "atime": "2019-02-19T01:46:26.422Z",
+      "mtime": "2019-02-19T01:46:26.419Z",
+      "ctime": "2019-02-19T01:46:26.422Z",
+      "birthtime": "2019-02-19T01:46:15.508Z"
+    },
+    "af294388-7019-5e44-9df6-45ae1677db7f": {
+      "id": "af294388-7019-5e44-9df6-45ae1677db7f",
+      "children": [],
+      "parent": "67359678230fb69f6e563cd97ecfcc85",
+      "internal": {
+        "contentDigest": "5233313641e1c219b7ac79ff4ac206a5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6484a65b545f8625336c123354ec4179": {
+      "id": "6484a65b545f8625336c123354ec4179",
+      "children": [
+        "13215926-afd0-5c06-8dd4-f57b2939ea4b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0e024827e30baa22dedf9eda2a296e4c",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1483728788451-2708e0270131\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/09eb6d4a9f6ad57ad8c295ff593b2211/photo-1483728788451-2708e0270131.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/09eb6d4a9f6ad57ad8c295ff593b2211/photo-1483728788451-2708e0270131.jpg",
+      "extension": "jpg",
+      "size": 14431236,
+      "prettySize": "14.4 MB",
+      "modifiedTime": "2019-02-19T01:46:26.908Z",
+      "accessTime": "2019-02-19T01:46:26.913Z",
+      "changeTime": "2019-02-19T01:46:26.913Z",
+      "birthTime": "2019-02-19T01:46:15.511Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/09eb6d4a9f6ad57ad8c295ff593b2211",
+      "base": "photo-1483728788451-2708e0270131.jpg",
+      "ext": ".jpg",
+      "name": "photo-1483728788451-2708e0270131",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/09eb6d4a9f6ad57ad8c295ff593b2211",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375038,
+      "blocks": 28704,
+      "atimeMs": 1550540786912.8914,
+      "mtimeMs": 1550540786908.1335,
+      "ctimeMs": 1550540786912.6128,
+      "birthtimeMs": 1550540775510.8015,
+      "atime": "2019-02-19T01:46:26.913Z",
+      "mtime": "2019-02-19T01:46:26.908Z",
+      "ctime": "2019-02-19T01:46:26.913Z",
+      "birthtime": "2019-02-19T01:46:15.511Z"
+    },
+    "13215926-afd0-5c06-8dd4-f57b2939ea4b": {
+      "id": "13215926-afd0-5c06-8dd4-f57b2939ea4b",
+      "children": [],
+      "parent": "6484a65b545f8625336c123354ec4179",
+      "internal": {
+        "contentDigest": "0e024827e30baa22dedf9eda2a296e4c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d015f8d02281b910f0f33c66508d2cd7": {
+      "id": "d015f8d02281b910f0f33c66508d2cd7",
+      "children": [
+        "94502e23-ebe2-510a-8832-366c0a3431e3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "797ba815b46a6f2740d020a73b1e5b63",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1516962126636-27ad087061cc\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/ec9eb689a5605165bb755c8dd03ec9d2/photo-1516962126636-27ad087061cc.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/ec9eb689a5605165bb755c8dd03ec9d2/photo-1516962126636-27ad087061cc.jpg",
+      "extension": "jpg",
+      "size": 18130563,
+      "prettySize": "18.1 MB",
+      "modifiedTime": "2019-02-19T01:46:27.476Z",
+      "accessTime": "2019-02-19T01:46:27.480Z",
+      "changeTime": "2019-02-19T01:46:27.479Z",
+      "birthTime": "2019-02-19T01:46:15.577Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/ec9eb689a5605165bb755c8dd03ec9d2",
+      "base": "photo-1516962126636-27ad087061cc.jpg",
+      "ext": ".jpg",
+      "name": "photo-1516962126636-27ad087061cc",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/ec9eb689a5605165bb755c8dd03ec9d2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375046,
+      "blocks": 36880,
+      "atimeMs": 1550540787479.6726,
+      "mtimeMs": 1550540787476.425,
+      "ctimeMs": 1550540787479.4402,
+      "birthtimeMs": 1550540775577.4648,
+      "atime": "2019-02-19T01:46:27.480Z",
+      "mtime": "2019-02-19T01:46:27.476Z",
+      "ctime": "2019-02-19T01:46:27.479Z",
+      "birthtime": "2019-02-19T01:46:15.577Z"
+    },
+    "94502e23-ebe2-510a-8832-366c0a3431e3": {
+      "id": "94502e23-ebe2-510a-8832-366c0a3431e3",
+      "children": [],
+      "parent": "d015f8d02281b910f0f33c66508d2cd7",
+      "internal": {
+        "contentDigest": "797ba815b46a6f2740d020a73b1e5b63",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8ca43b09800fa7a331dd76d8d6458d0c": {
+      "id": "8ca43b09800fa7a331dd76d8d6458d0c",
+      "children": [
+        "49184a92-c280-5324-b8f8-47b7b8b25498"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d175e48d4e5f9cdd4c35246c488b2b6d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"https://images.unsplash.com/photo-1469201039728-6c8998f9872a\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMMATIC__",
+      "absolutePath": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/9ed8abdade9843b3652244da52ae8870/photo-1469201039728-6c8998f9872a.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/9ed8abdade9843b3652244da52ae8870/photo-1469201039728-6c8998f9872a.jpg",
+      "extension": "jpg",
+      "size": 15117076,
+      "prettySize": "15.1 MB",
+      "modifiedTime": "2019-02-19T01:46:27.587Z",
+      "accessTime": "2019-02-19T01:46:27.591Z",
+      "changeTime": "2019-02-19T01:46:27.591Z",
+      "birthTime": "2019-02-19T01:46:15.509Z",
+      "root": "/",
+      "dir": "/Users/jacklaplante/nonToast/morgan/.cache/gatsby-source-filesystem/9ed8abdade9843b3652244da52ae8870",
+      "base": "photo-1469201039728-6c8998f9872a.jpg",
+      "ext": ".jpg",
+      "name": "photo-1469201039728-6c8998f9872a",
+      "relativeDirectory": ".cache/gatsby-source-filesystem/9ed8abdade9843b3652244da52ae8870",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29375037,
+      "blocks": 30752,
+      "atimeMs": 1550540787591.0923,
+      "mtimeMs": 1550540787587.2715,
+      "ctimeMs": 1550540787590.8252,
+      "birthtimeMs": 1550540775509.2764,
+      "atime": "2019-02-19T01:46:27.591Z",
+      "mtime": "2019-02-19T01:46:27.587Z",
+      "ctime": "2019-02-19T01:46:27.591Z",
+      "birthtime": "2019-02-19T01:46:15.509Z"
+    },
+    "49184a92-c280-5324-b8f8-47b7b8b25498": {
+      "id": "49184a92-c280-5324-b8f8-47b7b8b25498",
+      "children": [],
+      "parent": "8ca43b09800fa7a331dd76d8d6458d0c",
+      "internal": {
+        "contentDigest": "d175e48d4e5f9cdd4c35246c488b2b6d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /background-color/": {
+      "jsonName": "background-color-a9b",
+      "internalComponentName": "ComponentBackgroundColor",
+      "path": "/background-color/",
+      "component": "/Users/jacklaplante/nonToast/morgan/src/pages/background-color.js",
+      "componentChunkName": "component---src-pages-background-color-js",
+      "context": {},
+      "pluginCreator___NODE": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "pluginCreatorId": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/background-color.js",
+      "id": "SitePage /background-color/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e6fa8a30b5a99a08b50ae8e46621807e",
+        "description": "416920fb-e641-5c4f-baef-d0db48fee20e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blur-up/": {
+      "jsonName": "blur-up-566",
+      "internalComponentName": "ComponentBlurUp",
+      "path": "/blur-up/",
+      "component": "/Users/jacklaplante/nonToast/morgan/src/pages/blur-up.js",
+      "componentChunkName": "component---src-pages-blur-up-js",
+      "context": {},
+      "pluginCreator___NODE": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "pluginCreatorId": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/blur-up.js",
+      "id": "SitePage /blur-up/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1beee9e92f5669d3f292f0e895a442aa",
+        "description": "416920fb-e641-5c4f-baef-d0db48fee20e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jacklaplante/nonToast/morgan/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "pluginCreatorId": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1b71540a50a7ee9faa8ca3aaac9e7eb3",
+        "description": "416920fb-e641-5c4f-baef-d0db48fee20e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /prefer-webp/": {
+      "jsonName": "prefer-webp-233",
+      "internalComponentName": "ComponentPreferWebp",
+      "path": "/prefer-webp/",
+      "component": "/Users/jacklaplante/nonToast/morgan/src/pages/prefer-webp.js",
+      "componentChunkName": "component---src-pages-prefer-webp-js",
+      "context": {},
+      "pluginCreator___NODE": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "pluginCreatorId": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/prefer-webp.js",
+      "id": "SitePage /prefer-webp/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fc44dbb27b1bd94258ce483ff0fec80b",
+        "description": "416920fb-e641-5c4f-baef-d0db48fee20e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /traced-svg/": {
+      "jsonName": "traced-svg-35c",
+      "internalComponentName": "ComponentTracedSvg",
+      "path": "/traced-svg/",
+      "component": "/Users/jacklaplante/nonToast/morgan/src/pages/traced-svg.js",
+      "componentChunkName": "component---src-pages-traced-svg-js",
+      "context": {},
+      "pluginCreator___NODE": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "pluginCreatorId": "416920fb-e641-5c4f-baef-d0db48fee20e",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/traced-svg.js",
+      "id": "SitePage /traced-svg/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9d8bf04872522d6dc814ab1a267e6bb3",
+        "description": "416920fb-e641-5c4f-baef-d0db48fee20e",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "51b9b05fcaee5d6fd7f26f1411b33e70"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "e01e267c-2e08-5720-8d9f-3e019ea9ef91": [
+        "/background-color/"
+      ],
+      "874a3cbf-5812-59df-8eed-12c3c649910c": [
+        "/background-color/"
+      ],
+      "6852073b-886c-5b9e-a579-1a040823e232": [
+        "/background-color/",
+        "/prefer-webp/"
+      ],
+      "d44e748c-7242-546d-a25c-f2a277fb496e": [
+        "/blur-up/"
+      ],
+      "e40b4cba-63f8-528e-9454-244856893c6f": [
+        "/blur-up/"
+      ],
+      "93020aca-5bfd-5b8c-89f2-ce47c77ab160": [
+        "/blur-up/"
+      ],
+      "42cd853d-f121-5422-a673-f7dfcf7086e1": [
+        "/prefer-webp/"
+      ],
+      "6414a262-552f-5fef-b86c-a364b423b6b5": [
+        "/prefer-webp/"
+      ],
+      "3abd025b-812f-5ef0-a30e-c30b0c56239a": [
+        "/"
+      ],
+      "da60e025d4fe7b3e3e5f508f4e07feb3": [
+        "/background-color/",
+        "/traced-svg/"
+      ],
+      "41394c435a80391d8044e563d0c2e317": [
+        "/background-color/"
+      ],
+      "15af8fc327060dc0c76f074474567665": [
+        "/background-color/",
+        "/prefer-webp/",
+        "/traced-svg/"
+      ],
+      "062d2226c72a700ef42d453a2fa88c84": [
+        "/blur-up/",
+        "/traced-svg/"
+      ],
+      "eed439b81089fc6a6265f773b41315e2": [
+        "/blur-up/"
+      ],
+      "8ca43b09800fa7a331dd76d8d6458d0c": [
+        "/blur-up/",
+        "/traced-svg/"
+      ],
+      "cf188eb7588aef959638cbcb5c67f6cf": [
+        "/prefer-webp/"
+      ],
+      "ed3ef014504181a1789ca94d0e95a584": [
+        "/prefer-webp/",
+        "/traced-svg/"
+      ],
+      "cdac8c88-bdad-5171-88b8-5fff95eb0ff4": [
+        "/"
+      ],
+      "21249cc9-a454-52dd-91f4-5ebe0e9c29cf": [
+        "/background-color/",
+        "/traced-svg/"
+      ],
+      "2c83cda3-7fef-505a-87ca-69088b92ea4c": [
+        "/background-color/"
+      ],
+      "fcf65f82-ed7b-5041-b923-510600e18fd9": [
+        "/background-color/",
+        "/prefer-webp/",
+        "/traced-svg/"
+      ],
+      "c6c49d61-89c1-57d5-8a64-5ef3eda5b3c2": [
+        "/blur-up/",
+        "/traced-svg/"
+      ],
+      "be960c12-527e-53f1-8d7b-ac27892fd730": [
+        "/blur-up/"
+      ],
+      "49184a92-c280-5324-b8f8-47b7b8b25498": [
+        "/blur-up/",
+        "/traced-svg/"
+      ],
+      "dde2f1f8-4465-501e-8f2e-06a5ce6ddf11": [
+        "/prefer-webp/"
+      ],
+      "307bb184-f823-57c4-ae23-d982a20761df": [
+        "/prefer-webp/",
+        "/traced-svg/"
+      ],
+      "6d146f5e-5b6f-5330-a1b0-419073de980c": [
+        "/traced-svg/"
+      ],
+      "da38bc65-f773-5113-b360-fcf6fdd8f7a6": [
+        "/traced-svg/"
+      ],
+      "3b5e83dc-5a49-541b-966a-8f5c23f583fc": [
+        "/traced-svg/"
+      ],
+      "5056ce91b761ca03578573c29cfafadf": [
+        "/traced-svg/"
+      ],
+      "ef6a89faeeb14bbe8eb8bf0826ab8d93": [
+        "/traced-svg/"
+      ],
+      "6484a65b545f8625336c123354ec4179": [
+        "/traced-svg/"
+      ],
+      "07c716a94c5cbd7299db672e1fe0e945": [
+        "/traced-svg/"
+      ],
+      "a674fea5ad963615ec19f2f9e7494755": [
+        "/traced-svg/"
+      ],
+      "2f68d2731df59d26f55f0f249f3d84a6": [
+        "/traced-svg/"
+      ],
+      "02d9f71cc8aa6e6d2afc8eb175ab581d": [
+        "/traced-svg/"
+      ],
+      "ffbc2c96d4162925bea1cc7f9cb69cae": [
+        "/traced-svg/"
+      ],
+      "a201749fffa558ad4128b7e08297ab72": [
+        "/traced-svg/"
+      ],
+      "017ef8dc9595848f7881b16a7648663d": [
+        "/traced-svg/"
+      ],
+      "d015f8d02281b910f0f33c66508d2cd7": [
+        "/traced-svg/"
+      ],
+      "316983026851ce62759947b60d65033e": [
+        "/traced-svg/"
+      ],
+      "e59a5abd-d6ed-5364-bea4-efa62b19ba4a": [
+        "/traced-svg/"
+      ],
+      "aae735d7-98d9-5c48-9606-0f990e0bf646": [
+        "/traced-svg/"
+      ],
+      "13215926-afd0-5c06-8dd4-f57b2939ea4b": [
+        "/traced-svg/"
+      ],
+      "4fc19857-897b-5d20-8614-a32d1c586abf": [
+        "/traced-svg/"
+      ],
+      "298a7740-76af-585d-b253-2fd80695725c": [
+        "/traced-svg/"
+      ],
+      "5df071c7-f9ef-5ece-bca4-70ab7693a156": [
+        "/traced-svg/"
+      ],
+      "fa046c5d-abcb-57be-bd8d-6a3df04a78f0": [
+        "/traced-svg/"
+      ],
+      "4ec6a74f-f4da-5174-b91b-671d6f672c6c": [
+        "/traced-svg/"
+      ],
+      "002afbe4-e1e5-5774-8f62-3bcca8d6950b": [
+        "/traced-svg/"
+      ],
+      "b32fe162-d043-544d-8fb9-1b64466e11c7": [
+        "/traced-svg/"
+      ],
+      "94502e23-ebe2-510a-8832-366c0a3431e3": [
+        "/traced-svg/"
+      ],
+      "c97be171-238d-5c86-b1b4-3b9a212690bd": [
+        "/traced-svg/"
+      ]
+    },
+    "connections": {
+      "UnsplashImagesYaml": [
+        "/traced-svg/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "index": "100/path---index-6a9-Out9jTccL5LG0EWC9BBRIzRlj30",
+    "background-color-a9b": "73/path---background-color-a-9-b-99b-5p194lIeUJYNXZKamdvBrIir88",
+    "blur-up-566": "549/path---blur-up-566-70e-yFxIMZYlh0vnjvOOrqvTzxF7Bk",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "traced-svg-35c": "633/path---traced-svg-35-c-209-LJRGMXTPwPLty40uYUEcpRH0J0",
+    "prefer-webp-233": "942/path---prefer-webp-233-e5b-SlJZJWGbHMxERGGNM0BVXN9Xc"
+  },
+  "components": {
+    "/Users/jacklaplante/nonToast/morgan/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/.cache/dev-404-page.js"
+    },
+    "/Users/jacklaplante/nonToast/morgan/src/pages/background-color.js": {
+      "query": "query usersJacklaplanteNonToastMorganSrcPagesBackgroundColorJs1384642238 {\n  coverImage: unsplashImagesYaml(title: {eq: \"Cactus\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 720) {\n          ...GatsbyImageSharpFluid_noBase64\n        }\n      }\n    }\n  }\n  floatingImageMobile: unsplashImagesYaml(title: {eq: \"Pug with red hat\"}) {\n    localFile {\n      childImageSharp {\n        fixed(width: 120) {\n          ...GatsbyImageSharpFixed_noBase64\n        }\n      }\n    }\n  }\n  floatingImage: unsplashImagesYaml(title: {eq: \"Pug with red hat\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fixed(width: 200) {\n          ...GatsbyImageSharpFixed_noBase64\n        }\n      }\n    }\n  }\n  fullWidthImage: unsplashImagesYaml(title: {eq: \"Cacti\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 600) {\n          ...GatsbyImageSharpFluid_noBase64\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_noBase64 on ImageSharpFluid {\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/background-color.js"
+    },
+    "/Users/jacklaplante/nonToast/morgan/src/pages/blur-up.js": {
+      "query": "query usersJacklaplanteNonToastMorganSrcPagesBlurUpJs3502654276 {\n  coverImage: unsplashImagesYaml(title: {eq: \"Plant with leaves\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 720) {\n          ...GatsbyImageSharpFluid\n        }\n      }\n    }\n  }\n  floatingImageMobile: unsplashImagesYaml(title: {eq: \"Pug with hoodie\"}) {\n    localFile {\n      childImageSharp {\n        fixed(width: 120) {\n          ...GatsbyImageSharpFixed\n        }\n      }\n    }\n  }\n  floatingImage: unsplashImagesYaml(title: {eq: \"Pug with hoodie\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fixed(width: 200) {\n          ...GatsbyImageSharpFixed\n        }\n      }\n    }\n  }\n  fullWidthImage: unsplashImagesYaml(title: {eq: \"Alien in the forest\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 600) {\n          ...GatsbyImageSharpFluid\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/blur-up.js"
+    },
+    "/Users/jacklaplante/nonToast/morgan/src/pages/index.js": {
+      "query": "query usersJacklaplanteNonToastMorganSrcPagesIndexJs1524111298 {\n  coverImage: file(relativePath: {regex: \"/ellie/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 800, quality: 100) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/index.js"
+    },
+    "/Users/jacklaplante/nonToast/morgan/src/pages/prefer-webp.js": {
+      "query": "query usersJacklaplanteNonToastMorganSrcPagesPreferWebpJs2939620343 {\n  coverImage: unsplashImagesYaml(title: {eq: \"Pug with yellow raincoat\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 720) {\n          ...GatsbyImageSharpFluid\n        }\n      }\n    }\n  }\n  floatingImageMobile: unsplashImagesYaml(title: {eq: \"Cacti\"}) {\n    localFile {\n      childImageSharp {\n        fixed(width: 120) {\n          ...GatsbyImageSharpFixed_withWebp\n        }\n      }\n    }\n  }\n  floatingImage: unsplashImagesYaml(title: {eq: \"Cacti\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fixed(width: 200) {\n          ...GatsbyImageSharpFixed_withWebp\n        }\n      }\n    }\n  }\n  fullWidthImage: unsplashImagesYaml(title: {eq: \"Tennis court\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 600) {\n          ...GatsbyImageSharpFluid_withWebp\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_withWebp on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/prefer-webp.js"
+    },
+    "/Users/jacklaplante/nonToast/morgan/src/pages/traced-svg.js": {
+      "query": "query usersJacklaplanteNonToastMorganSrcPagesTracedSvgJs1948641609 {\n  coverImage: unsplashImagesYaml(title: {eq: \"Polaroid Pronto 600\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 720, traceSVG: {background: \"#fff\", color: \"#663399\"}) {\n          ...GatsbyImageSharpFluid_tracedSVG\n        }\n      }\n    }\n  }\n  floatingImageMobile: unsplashImagesYaml(title: {eq: \"Pug without hoodie\"}) {\n    localFile {\n      childImageSharp {\n        fixed(width: 120) {\n          ...GatsbyImageSharpFixed_tracedSVG\n        }\n      }\n    }\n  }\n  floatingImage: unsplashImagesYaml(title: {eq: \"Pug without hoodie\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fixed(width: 200) {\n          ...GatsbyImageSharpFixed_tracedSVG\n        }\n      }\n    }\n  }\n  fullWidthImage: unsplashImagesYaml(title: {eq: \"City from above\"}) {\n    credit\n    title\n    localFile {\n      childImageSharp {\n        fluid(maxWidth: 480) {\n          ...GatsbyImageSharpFluid_tracedSVG\n        }\n      }\n    }\n  }\n  galleryImages: allUnsplashImagesYaml(filter: {gallery: {eq: true}}) {\n    edges {\n      node {\n        credit\n        title\n        localFile {\n          childImageSharp {\n            fluid(maxWidth: 380, quality: 70, traceSVG: {background: \"#fbfafc\", color: \"#dbd4e2\"}) {\n              ...GatsbyImageSharpFluid_tracedSVG\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_tracedSVG on ImageSharpFixed {\n  tracedSVG\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/Users/jacklaplante/nonToast/morgan/src/pages/traced-svg.js"
+    }
+  },
+  "staticQueryComponents": {}
+}
