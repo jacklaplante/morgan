@@ -25,7 +25,7 @@ const Title = styled(`div`)`
   left: 9rem;
   z-index: 1;
   font-size: 5rem;
-  color: oldlace;
+  color: white;
   text-align: center;
 `;
 
