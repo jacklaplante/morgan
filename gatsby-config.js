@@ -7,21 +7,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
-        path: `${__dirname}/content`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography.js`,
-      },
+        path: `${__dirname}/content`
+      }
     },
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-remote-images`,
       options: {
-        filter: node => node.internal.type === `UnsplashImagesYaml`,
-      },
-    },
-  ],
-}
+        filter: node => node.internal.type === `UnsplashImagesYaml`
+      }
+    }
+  ]
+};
