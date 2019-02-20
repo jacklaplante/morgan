@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import styled from "react-emotion";
 
+import Art from "../components/art";
 import { mq, elevation, offset, offsetXxl, gutter } from "../utils/presets";
 import "../styles/global.css";
 
@@ -24,18 +25,18 @@ const Image = styled(Img)`
 const Index = ({ data, location }) => (
   <Container>
     <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Serif+Pro"
+      href="https://fonts.googleapis.com/css?family=Martel:200"
       rel="stylesheet"
     />
     <div className="title">
-      Morgan
+      <p style={{ height: "8rem" }}>Morgan</p>
       <hr />
-      Lisa
+      <p style={{ height: "7.5rem" }}>Lisa</p>
       <hr />
-      LaPlante
+      <p>LaPlante</p>
     </div>
     <Image fluid={data.coverImage.childImageSharp.fluid} />
-    <p>MORE CONTENT</p>
+    <Art />
   </Container>
 );
 
