@@ -2,10 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import styled from "react-emotion";
-import { FaGithub } from "react-icons/fa";
 
-import Layout from "../components/layout";
-import { colors } from "../utils/presets";
 import { mq, elevation, offset, offsetXxl, gutter } from "../utils/presets";
 import "../styles/global.css";
 
@@ -19,16 +16,6 @@ const Container = styled(`div`)`
   left: 0;
 `;
 
-const Title = styled(`div`)`
-  position: absolute;
-  top: 10rem;
-  left: 9rem;
-  z-index: 1;
-  font-size: 5rem;
-  color: white;
-  text-align: center;
-`;
-
 const Image = styled(Img)`
   height: 100%;
   width: 100%;
@@ -36,13 +23,13 @@ const Image = styled(Img)`
 
 const Index = ({ data, location }) => (
   <Container>
-    <Title>
+    <div className='title'>
       Morgan
       <hr />
       Lisa
       <hr />
       LaPlante
-    </Title>
+    </div>
     <Image fluid={data.coverImage.childImageSharp.fluid} />
     <p>MORE CONTENT</p>
   </Container>

@@ -19,7 +19,6 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-emotion": "^9.2.12",
-    "react-icons": "^3.2.1",
     "react-typography": "^0.16.13",
     "typeface-oswald": "0.0.54",
     "typeface-pt-sans": "0.0.54",

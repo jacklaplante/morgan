@@ -2,7 +2,17 @@ html {
   background-color: white;
 }
 
-hr {
+.title {
+  position: absolute;
+  top: 10rem;
+  left: 9rem;
+  z-index: 1;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.title hr {
   background: white;
   border: none;
   height: 0.2rem;
