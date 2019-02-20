@@ -1,5 +1,6 @@
 html {
   background-color: white;
+  font-family: "Source Serif Pro", serif;
 }
 
 .title {
@@ -10,6 +11,8 @@ html {
   font-size: 5rem;
   color: white;
   text-align: center;
+
+  font-family: "Playfair Display", serif;
 }
 
 .title hr {

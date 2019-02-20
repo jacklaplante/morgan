@@ -23,7 +23,11 @@ const Image = styled(Img)`
 
 const Index = ({ data, location }) => (
   <Container>
-    <div className='title'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Serif+Pro"
+      rel="stylesheet"
+    />
+    <div className="title">
       Morgan
       <hr />
       Lisa
