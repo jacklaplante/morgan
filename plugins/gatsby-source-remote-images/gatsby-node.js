@@ -1,4 +1,4 @@
-const { createRemoteFileNode } = require(`gatsby-source-filesystem`)
+const { createRemoteFileNode } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = async (
   { actions: { createNode }, node, createContentDigest, store, cache },
@@ -10,12 +10,17 @@ exports.onCreateNode = async (
       store,
       cache,
       createNode,
-      createNodeId: createContentDigest,
-    })
+      createNodeId: createContentDigest
+    });
 
     if (fileNode) {
-      const fileNodeLink = `${nodeName}___NODE`
-      node[fileNodeLink] = fileNode.id
+      // wtf
+      try {
+        const fileNodeLink = `${nodeName}___NODE`;
+        node[fileNodeLink] = fileNode.id;
+      } catch (e) {
+        debugger;
+      }
     }
   }
-}
+};

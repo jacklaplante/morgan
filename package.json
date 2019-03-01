@@ -20,6 +20,7 @@
     "react-dom": "^16.6.0",
     "react-emotion": "^9.2.12",
     "react-typography": "^0.16.13",
+    "react-visibility-sensor": "^5.0.2",
     "typeface-oswald": "0.0.54",
     "typeface-pt-sans": "0.0.54",
     "typography-theme-st-annes": "^0.16.18"
