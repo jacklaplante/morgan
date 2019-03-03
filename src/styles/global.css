@@ -2,6 +2,19 @@ html {
   font-family: "Source Serif Pro", serif;
 }
 
+.background {
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  overflow: scroll;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+
 .title {
   position: absolute;
   top: 10rem;
@@ -23,4 +36,14 @@ html {
 
 .title p {
   margin: 0;
+}
+
+.message {
+  margin: 25% 9% 0;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  color: #312222;
+  font-size: 24pt;
+  line-height: 40pt;
 }

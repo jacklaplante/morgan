@@ -4,8 +4,11 @@ import styled from "react-emotion";
 import VisibilitySensor from "react-visibility-sensor";
 
 const Image = styled(Img)`
-  width: 30%;
-  margin: 10%;
+  width: 35%;
+  margin: 7% 5%;
+  display: inline-block;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
 class Art extends Component {
@@ -16,28 +19,20 @@ class Art extends Component {
 
   onChange(isVisible) {
     if (isVisible) {
-      console.log("YES");
       this.props.changeBackgroundColor(this.props.frameColor);
     }
   }
 
   render() {
     return (
-      <div style={{ backgroundColor: this.props.frameColor }}>
+      <div>
         <VisibilitySensor onChange={this.onChange}>
           {this.props.image && <Image fluid={this.props.image} />}
         </VisibilitySensor>
+        <div className="message">{this.props.message}</div>
       </div>
     );
   }
 }
-
-// const Art = ({ image, frameColor, changeBackgroundColor }) => (
-//   <div style={{ backgroundColor: frameColor }}>
-//     <VisibilitySensor onChange={onChange}>
-//       {image && <Image fluid={image} />}
-//     </VisibilitySensor>
-//   </div>
-// );
 
 export default Art;

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import styled from "react-emotion";
+import VisibilitySensor from "react-visibility-sensor";
 
 import Art from "../components/art";
 import { mq, elevation, offset, offsetXxl, gutter } from "../utils/presets";
@@ -16,29 +17,33 @@ class Index extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      backgroundColor: "white"
+      style: {
+        backgroundColor: "white",
+        padding: gutter.default
+      }
     };
     this.changeBackgroundColor = this.changeBackgroundColor.bind(this);
+    this.changeToIndex = this.changeToIndex.bind(this);
+  }
+
+  changeToIndex(isVisible) {
+    if (isVisible) {
+      this.changeBackgroundColor("white");
+    }
   }
 
   changeBackgroundColor(color) {
-    this.setState({ backgroundColor: color });
+    this.setState(prevState => ({
+      style: {
+        ...prevState.style,
+        backgroundColor: color
+      }
+    }));
   }
 
   render() {
     return (
-      <div
-        style={{
-          backgroundColor: this.state.backgroundColor,
-          position: "fixed",
-          margin: gutter.default,
-          overflow: "scroll",
-          top: 0,
-          bottom: 0,
-          right: 0,
-          left: 0
-        }}
-      >
+      <div className="background" style={this.state.style}>
         <link
           href="https://fonts.googleapis.com/css?family=Martel:200"
           rel="stylesheet"
@@ -50,9 +55,12 @@ class Index extends Component {
           <hr />
           <p>LaPlante</p>
         </div>
-        <Image fluid={this.props.data.ellie.childImageSharp.fluid} />
+        <VisibilitySensor onChange={this.changeToIndex}>
+          <Image fluid={this.props.data.ellie.childImageSharp.fluid} />
+        </VisibilitySensor>
         <Art
           image={this.props.data.connor.childImageSharp.fluid}
+          message="Art is my way of exploring and celebrating the mysteries I see in the world around me"
           frameColor="#01579b80"
           changeBackgroundColor={this.changeBackgroundColor}
         />
