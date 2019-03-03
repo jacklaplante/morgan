@@ -1,15 +1,6 @@
 import React, { Component } from "react";
-import Img from "gatsby-image";
-import styled from "react-emotion";
+import Image from "gatsby-image";
 import VisibilitySensor from "react-visibility-sensor";
-
-const Image = styled(Img)`
-  width: 35%;
-  margin: 7% 5%;
-  display: inline-block;
-  float: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-`;
 
 class Art extends Component {
   constructor(props) {
@@ -25,11 +16,19 @@ class Art extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ height: "100%" }}>
         <VisibilitySensor onChange={this.onChange}>
-          {this.props.image && <Image fluid={this.props.image} />}
+          {this.props.image && (
+            <Image
+              fluid={this.props.image}
+              className="art"
+              style={this.props.imageStyle}
+            />
+          )}
         </VisibilitySensor>
-        <div className="message">{this.props.message}</div>
+        <div className="message" style={this.props.messageStyle}>
+          {this.props.message}
+        </div>
       </div>
     );
   }

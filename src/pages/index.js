@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
-import styled from "react-emotion";
+import Image from "gatsby-image";
 import VisibilitySensor from "react-visibility-sensor";
 
 import Art from "../components/art";
 import { mq, elevation, offset, offsetXxl, gutter } from "../utils/presets";
 import "../styles/global.css";
-
-const Image = styled(Img)`
-  height: 100%;
-  width: 100%;
-`;
 
 class Index extends Component {
   constructor(props) {
@@ -56,12 +50,45 @@ class Index extends Component {
           <p>LaPlante</p>
         </div>
         <VisibilitySensor onChange={this.changeToIndex}>
-          <Image fluid={this.props.data.ellie.childImageSharp.fluid} />
+          <Image
+            fluid={this.props.data.ellie.childImageSharp.fluid}
+            style={{ height: "100%", width: "100%" }}
+          />
         </VisibilitySensor>
         <Art
           image={this.props.data.connor.childImageSharp.fluid}
           message="Art is my way of exploring and celebrating the mysteries I see in the world around me"
           frameColor="#01579b80"
+          imageStyle={{
+            width: "35%",
+            margin: "7% 5%",
+            float: "left"
+          }}
+          messageStyle={{
+            margin: "25% 9% 0",
+            width: "30%",
+            color: "#312222",
+            fontSize: "24pt",
+            lineHeight: "40pt"
+          }}
+          changeBackgroundColor={this.changeBackgroundColor}
+        />
+        <Art
+          image={this.props.data.flowers.childImageSharp.fluid}
+          message="I love learning about an object, person or landscape intimately by studying them in paint"
+          frameColor="#81819a"
+          imageStyle={{
+            width: "60%",
+            margin: "8% 6%",
+            float: "right"
+          }}
+          messageStyle={{
+            margin: "22% 0 0 7%",
+            width: "20%",
+            color: "rgb(230, 215, 182)",
+            fontSize: "20pt",
+            lineHeight: "35pt"
+          }}
           changeBackgroundColor={this.changeBackgroundColor}
         />
       </div>
@@ -81,6 +108,13 @@ export const data = graphql`
       }
     }
     connor: file(relativePath: { regex: "/connor/" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    flowers: file(relativePath: { regex: "/flowers/" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid

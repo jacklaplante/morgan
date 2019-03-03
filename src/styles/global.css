@@ -38,12 +38,12 @@ html {
   margin: 0;
 }
 
+.art {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .message {
-  margin: 25% 9% 0;
-  width: 30%;
   text-align: center;
   display: inline-block;
-  color: #312222;
-  font-size: 24pt;
-  line-height: 40pt;
 }
