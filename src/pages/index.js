@@ -11,33 +11,28 @@ class Index extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      style: {
-        backgroundColor: "white",
-        padding: gutter.default
-      }
+      theme: "index"
     };
-    this.changeBackgroundColor = this.changeBackgroundColor.bind(this);
+    this.transitionColorScheme = this.transitionColorScheme.bind(this);
     this.changeToIndex = this.changeToIndex.bind(this);
   }
 
   changeToIndex(isVisible) {
     if (isVisible) {
-      this.changeBackgroundColor("white");
+      this.transitionColorScheme("white");
     }
   }
 
-  changeBackgroundColor(color) {
-    this.setState(prevState => ({
-      style: {
-        ...prevState.style,
-        backgroundColor: color
-      }
-    }));
+  transitionColorScheme(theme) {
+    this.setState({ theme: theme });
   }
 
   render() {
     return (
-      <div className="background" style={this.state.style}>
+      <div
+        className={"background " + this.state.theme}
+        style={this.state.style}
+      >
         <link
           href="https://fonts.googleapis.com/css?family=Martel:200"
           rel="stylesheet"
@@ -58,7 +53,7 @@ class Index extends Component {
         <Art
           image={this.props.data.connor.childImageSharp.fluid}
           message="Art is my way of exploring and celebrating the mysteries I see in the world around me"
-          frameColor="#01579b80"
+          theme="connor"
           imageStyle={{
             width: "35%",
             margin: "7% 5%",
@@ -67,16 +62,15 @@ class Index extends Component {
           messageStyle={{
             margin: "25% 9% 0",
             width: "30%",
-            color: "#312222",
             fontSize: "24pt",
             lineHeight: "40pt"
           }}
-          changeBackgroundColor={this.changeBackgroundColor}
+          transitionColorScheme={this.transitionColorScheme}
         />
         <Art
           image={this.props.data.flowers.childImageSharp.fluid}
           message="I love learning about an object, person or landscape intimately by studying them in paint"
-          frameColor="#81819a"
+          theme="flowers"
           imageStyle={{
             width: "60%",
             margin: "8% 6%",
@@ -85,11 +79,27 @@ class Index extends Component {
           messageStyle={{
             margin: "22% 0 0 7%",
             width: "20%",
-            color: "rgb(230, 215, 182)",
             fontSize: "20pt",
             lineHeight: "35pt"
           }}
-          changeBackgroundColor={this.changeBackgroundColor}
+          transitionColorScheme={this.transitionColorScheme}
+        />
+        <Art
+          image={this.props.data.margot.childImageSharp.fluid}
+          message="I hope to translate what I see into my work and share my experiences and love for my subjects with others"
+          theme="margot"
+          imageStyle={{
+            width: "35%",
+            margin: "7% 5%",
+            float: "left"
+          }}
+          messageStyle={{
+            margin: "25% 9% 0",
+            width: "30%",
+            fontSize: "24pt",
+            lineHeight: "40pt"
+          }}
+          transitionColorScheme={this.transitionColorScheme}
         />
       </div>
     );
@@ -115,6 +125,13 @@ export const data = graphql`
       }
     }
     flowers: file(relativePath: { regex: "/flowers/" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    margot: file(relativePath: { regex: "/margot/" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid

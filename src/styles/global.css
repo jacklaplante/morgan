@@ -13,6 +13,7 @@ html {
   right: 0;
   left: 0;
   position: fixed;
+  padding: 1.25rem;
 }
 
 .title {
@@ -46,4 +47,40 @@ html {
 .message {
   text-align: center;
   display: inline-block;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+/* index */
+.index {
+  background-color: white;
+}
+.index .message {
+  color: black;
+}
+
+/* connor */
+.background.connor {
+  background-color: #263f52;
+}
+.connor .message {
+  color: #dcd0c7;
+}
+
+/* flowers */
+.background.flowers {
+  background-color: #81819a;
+}
+.flowers .message {
+  color: rgb(230, 215, 182);
+}
+
+/* margot */
+.background.margot {
+  background-color: #403b3a;
+}
+.margot .message {
+  color: #b3948a;
 }

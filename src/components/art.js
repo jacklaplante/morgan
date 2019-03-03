@@ -10,7 +10,7 @@ class Art extends Component {
 
   onChange(isVisible) {
     if (isVisible) {
-      this.props.changeBackgroundColor(this.props.frameColor);
+      this.props.transitionColorScheme(this.props.theme);
     }
   }
 
