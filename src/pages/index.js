@@ -56,7 +56,8 @@ class Index extends Component {
           theme="connor"
           imageStyle={{
             width: "35%",
-            margin: "7% 5%",
+            height: "80vh",
+            margin: "10vh 5vw",
             float: "left"
           }}
           messageStyle={{
