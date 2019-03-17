@@ -40,15 +40,21 @@ class Index extends Component {
         <div className="title">
           <p style={{ height: "8rem" }}>Morgan</p>
           <hr />
-          <p style={{ height: "7.5rem" }}>Lisa</p>
-          <hr />
           <p>LaPlante</p>
         </div>
         <VisibilitySensor onChange={this.changeToIndex}>
-          <Image
-            fluid={this.props.data.ellie.childImageSharp.fluid}
-            style={{ height: "100%", width: "100%" }}
-          />
+          <div
+            style={{
+              height: "100%",
+              width: "100%",
+              overflow: "hidden"
+            }}
+          >
+            <Image
+              fluid={this.props.data.nathan.childImageSharp.fluid}
+              style={{ top: "-220px" }}
+            />
+          </div>
         </VisibilitySensor>
         <Art
           image={this.props.data.connor.childImageSharp.fluid}
@@ -111,6 +117,13 @@ export default Index;
 
 export const data = graphql`
   query {
+    nathan: file(relativePath: { regex: "/nathan/" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     ellie: file(relativePath: { regex: "/ellie/" }) {
       childImageSharp {
         fluid(quality: 100) {
