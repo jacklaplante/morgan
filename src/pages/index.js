@@ -19,7 +19,7 @@ class Index extends Component {
 
   changeToIndex(isVisible) {
     if (isVisible) {
-      this.transitionColorScheme("white");
+      this.transitionColorScheme("index");
     }
   }
 

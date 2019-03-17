@@ -18,18 +18,18 @@ html {
 
 .title {
   position: absolute;
-  top: 10rem;
-  left: 9rem;
+  top: 12rem;
+  right: 4rem;
   z-index: 1;
   font-size: 5rem;
-  color: white;
+  color: #403236;
   text-align: center;
 
   font-family: "Martel", serif;
 }
 
 .title hr {
-  background: white;
+  background: #403236;
   border: none;
   height: 0.2rem;
   margin: 0 4rem;
@@ -55,7 +55,7 @@ html {
 
 /* index */
 .index {
-  background-color: white;
+  background-color: #403236;
 }
 .index .message {
   color: black;
