@@ -18,14 +18,14 @@ html {
 
 .title {
   position: absolute;
-  top: 12rem;
+  top: 7rem;
   right: 4rem;
   z-index: 1;
-  font-size: 5rem;
   color: #403236;
   text-align: center;
 
-  font-family: "Martel", serif;
+  font-size: 5.5rem;
+  font-family: "Cinzel", serif;
 }
 
 .title hr {
@@ -51,6 +51,7 @@ html {
   -moz-transition: 2s;
   -o-transition: 2s;
   transition: 2s;
+  font-family: "Gilda Display", serif;
 }
 
 /* index */

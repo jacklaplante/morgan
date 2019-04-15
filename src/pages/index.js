@@ -34,7 +34,7 @@ class Index extends Component {
         style={this.state.style}
       >
         <link
-          href="https://fonts.googleapis.com/css?family=Martel:200"
+          href="https://fonts.googleapis.com/css?family=Cinzel|Gilda+Display"
           rel="stylesheet"
         />
         <div className="title">
